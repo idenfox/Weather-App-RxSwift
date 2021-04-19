@@ -36,7 +36,7 @@ struct MainView: View {
                                 TextField("Ingrese Ciudad", text: $textFieldCityName)
                                 { isEditing in
                                 } onCommit: {
-                                    getWeatherData(city: textFieldCityName.trimmingCharacters(in: .newlines))
+                                    getWeatherData(city: textFieldCityName.trimmingCharacters(in: .whitespaces))
                                 }
                                 .padding()
                                 .disableAutocorrection(true)
