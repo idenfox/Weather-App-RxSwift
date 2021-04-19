@@ -26,14 +26,6 @@ class LocationManager: NSObject, CLLocationManagerDelegate {
         manager.requestWhenInUseAuthorization()
         manager.startUpdatingLocation()
     }
-    
-//    func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
-//        lastKnownLocation = locations.first?.coordinate
-//        location.latitude = lastKnownLocation!.latitude
-//        location.Longitude = lastKnownLocation!.longitude
-//        print(location)
-//    }
-    
     func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
         lastKnownLocation = locations.first?.coordinate
         let lat = lastKnownLocation!.latitude

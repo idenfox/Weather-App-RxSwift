@@ -25,6 +25,7 @@
 		ED2EA0E1262CE24F00953204 /* LocationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2EA0E0262CE24F00953204 /* LocationModel.swift */; };
 		ED2EA0EC262D228200953204 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2EA0EB262D228100953204 /* Extensions.swift */; };
 		ED2EA0F2262D24DB00953204 /* FredokaOne-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ED2EA0F1262D24DB00953204 /* FredokaOne-Regular.ttf */; };
+		ED2EA0FA262D2DC700953204 /* AlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2EA0F9262D2DC700953204 /* AlertView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,6 +76,7 @@
 		ED2EA0E0262CE24F00953204 /* LocationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationModel.swift; sourceTree = "<group>"; };
 		ED2EA0EB262D228100953204 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		ED2EA0F1262D24DB00953204 /* FredokaOne-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FredokaOne-Regular.ttf"; sourceTree = "<group>"; };
+		ED2EA0F9262D2DC700953204 /* AlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -204,6 +206,7 @@
 			isa = PBXGroup;
 			children = (
 				ED2EA080262CBDD200953204 /* MainView.swift */,
+				ED2EA0F9262D2DC700953204 /* AlertView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -478,6 +481,7 @@
 				ED2EA0B7262CBE9400953204 /* WeatherManager.swift in Sources */,
 				ED2EA0BC262CBF2F00953204 /* WeatherResults.swift in Sources */,
 				ED2EA081262CBDD200953204 /* MainView.swift in Sources */,
+				ED2EA0FA262D2DC700953204 /* AlertView.swift in Sources */,
 				ED2EA07F262CBDD200953204 /* Simple_Weather_AppApp.swift in Sources */,
 				ED2EA0E1262CE24F00953204 /* LocationModel.swift in Sources */,
 				ED2EA0EC262D228200953204 /* Extensions.swift in Sources */,
@@ -644,7 +648,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Simple Weather App/Preview Content\"";
-				DEVELOPMENT_TEAM = Z9C4ZWSUSE;
+				DEVELOPMENT_TEAM = 44BQLZF534;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "Simple Weather App/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -655,7 +659,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "unfv.Simple-Weather-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -678,7 +682,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "unfv.Simple-Weather-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
